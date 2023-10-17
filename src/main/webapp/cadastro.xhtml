@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<h:html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta charset="ISO-8859-1"></meta>
+	<title>Cadastro</title>
+</h:head>
+<h:body>
+	<h:form id="cadastroBean">
+		<div id="divIndex" style="text-align: center; margin-top: 10%">
+			<h1>Cadastro</h1>
+			<h:outputLabel value="Nome:" />
+			<h:inputText id="nome" style="margin-left: 0.4%" />
+			<br />
+			<h:outputLabel value="Cpf:" />
+			<h:inputText id="cpf" style="margin-left: 1%" />
+			<br />
+			<h:outputLabel value="Email:" />
+			<h:inputText id="email" style="margin-left: 0.45%" />
+			<br />
+			<h:outputLabel value="Senha:" />
+			<h:inputText id="senha" style="margin-left: 0.4%"></h:inputText>
+			<br /> <br />
+			<h:commandButton id="Cancelar" value="Cancelar" action="index.xhtml" />
+			<h:commandButton id="Confirmar" value="Confirmar"
+				style="margin-left: 0.5%" action="index.xhtml" />
+		</div>
+	</h:form>
+</h:body>
+</h:html>

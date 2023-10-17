@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<h:html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta charset="ISO-8859-1"></meta>
+	<title>Login</title>
+</h:head>
+<h:body>
+	<h:form id="indexBean">
+		<div id="divIndex" style="text-align:center; margin-top: 10%">
+			<h1>Stock-X</h1>
+			<h:outputLabel value="Email:" />
+			<h:inputText id="email" style="margin-left: 0.5%"></h:inputText>
+			<br />
+			<h:outputLabel value="Senha:" />
+			<h:inputText id="senha" style="margin-left: 0.45%"></h:inputText>
+			<br /> <br />
+			<h:commandButton id="Cadastrar" value="Cadastrar"
+				action="cadastro.xhtml" />
+			<h:commandButton id="Login" value="Login" style="margin-left: 0.5%" />
+		</div>
+	</h:form>
+</h:body>
+</h:html>
